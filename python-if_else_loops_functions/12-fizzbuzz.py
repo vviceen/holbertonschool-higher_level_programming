@@ -11,5 +11,3 @@ def fizzbuzz():
             print("Buzz ", end="")
             continue
         print(f"{number} ", end="")
-
-fizzbuzz()
