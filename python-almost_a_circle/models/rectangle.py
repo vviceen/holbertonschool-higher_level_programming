@@ -74,5 +74,16 @@ class Rectangle(Base):
 
     def display(self):
         """ display the rectangle """
+        for new_line in range(self.__y):
+            print()
         for h in range(self.__height):
+            print(" " * self.__x, end="")
             print("#" * self.__width)
+
+    def __str__(self):
+        """ return method """
+        return (f"[Rectangle] ({self.id}) {self.x}/{self.y} "
+                f"- {self.width}/{self.height}")
+
+    def update(self, *args):
+        pass
