@@ -86,4 +86,5 @@ class Rectangle(Base):
                 f"- {self.width}/{self.height}")
 
     def update(self, *args):
+        """ update method """
         pass
