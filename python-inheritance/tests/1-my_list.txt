@@ -29,7 +29,8 @@ tests
 >>> new_list.print_sorted()
 [-1, 1]
 
->>> sorted_print = my_list.print_sorted()
-[1, 2, 3, 5]
->>> sorted_print is my_list
+>>> print_test = MyList()
+>>> sorted_print = print_test.print_sorted()
+[]
+>>> sorted_print is print_test
 False
