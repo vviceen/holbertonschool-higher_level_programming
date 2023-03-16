@@ -106,3 +106,4 @@ class Rectangle(Base):
         """ to_dic """
         return {'id': self.id, 'width': self.width, \
                 'height': self.height, 'x': self.x, 'y': self.y}
+ 
