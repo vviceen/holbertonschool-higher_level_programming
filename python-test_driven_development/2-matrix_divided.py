@@ -3,6 +3,7 @@
 
 
 def matrix_divided(matrix, div):
+    """ function that divides all elements of a matrix. """
     for idx, row in enumerate(matrix):
         if idx < len(matrix) - 1 and len(matrix[idx]) != len(matrix[idx + 1]):
             raise TypeError(f"Each row of the matrix"
