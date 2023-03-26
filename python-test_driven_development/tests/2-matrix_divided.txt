@@ -41,7 +41,7 @@ TypeError: matrix must be a matrix (list of lists) of integers/floats
 [[1, 2, 3], [4, 5, 'test']]
 
 >>> matrixtest4 = [1, 2, 3]
->>> print(matrix_divided(matrix, 3))
+>>> print(matrix_divided(matrixtest4, 3))
 Traceback (most recent call last):
 ...
 TypeError: object of type 'int' has no len()
