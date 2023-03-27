@@ -1,6 +1,5 @@
 #!/usr/bin/python3
 """ task 11 """
-import json
 
 
 class Student:
