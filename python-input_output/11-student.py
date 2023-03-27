@@ -26,4 +26,3 @@ class Student:
         for attr in json:
             if hasattr(self, attr):
                 setattr(self, attr, json[attr])
-    
