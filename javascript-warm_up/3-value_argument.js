@@ -1,5 +1,4 @@
 #!/usr/bin/node
-const process = require('process');
 let count = 0;
 for (; process.argv[count] !== undefined; count++) {
   if (count === 2) {

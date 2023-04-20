@@ -1,5 +1,4 @@
 #!/usr/bin/node
-const process = require('process');
 const argument = +process.argv[2];
 if (!argument) {
   console.log('Missing size');
